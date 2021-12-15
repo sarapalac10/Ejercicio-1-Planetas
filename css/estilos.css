@@ -1,0 +1,43 @@
+body{
+    background-image: url('../img/img1.jfif');
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+    background-size: 100%;
+}
+
+.contenido{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.40);
+}
+
+th{
+    color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+body{
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Botones */
+
+button {
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 5px;
+    box-shadow: 0 0 5px #ffc600
+ }
